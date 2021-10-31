@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  height: 100vh;
+}
+.root {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 10px;
+}
