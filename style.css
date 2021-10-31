@@ -2,6 +2,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: #fafafa;
+}
 .container {
   height: 100vh;
 }
