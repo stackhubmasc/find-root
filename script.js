@@ -27,6 +27,7 @@ async function callApi(username){
 
 window.addEventListener('hashchange',()=>{
     const username = location.hash.split("#")[1]
+    root.innerHTML = " "
   
     callApi(username)
 })
